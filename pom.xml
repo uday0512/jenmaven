@@ -15,14 +15,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
+  <!--distributionManagement>
   <snapshotRepository>
   <id>DXE1</id>
   <url>http://localhost:8081/nexus/content/repositories/DXC1/</url>
   </snapshotRepository>
-  </distributionManagement>
+  </distributionManagement-->
   
-  <!--build>
+  <build>
     <finalName>webapp_rbs</finalName>
       <plugins>
        <plugin>
@@ -37,6 +37,6 @@
       </plugin>
       </plugins>
  
-  </build-->
+  </build>
   
 </project>
